@@ -1,0 +1,485 @@
+@media(min-width: 576px){
+    /*SM Breakpoint*/
+    /*hero style*/
+    h1{
+        font-size: 42px !important;
+        line-height: 58px !important;
+    }
+    .hero:after{
+        border-bottom: 50px solid white;
+    }
+    .carousel-bg{
+        padding: 185px 0 236px;
+    }
+    /*about style*/
+    .about h2{
+        font-size: 40px;
+    }
+    .about{
+        padding: 50px 0 96px;
+    }
+    /*video style*/
+    .video:before,
+    .portfolio:before{
+        border-top: 50px solid white;
+    }
+    .video:after,
+    .portfolio:after{
+        border-top: 50px solid transparent;
+    }
+    .video{
+        padding: 181px 0 153px;
+    }
+    .h2-thin{
+        font-size: 40px;
+    }
+    .team{
+        padding: 94px 0 52px;
+    }
+    /*principles style*/
+    .principles{
+        padding: 64px 0 86px;
+    }
+    /*portfolio style*/
+    .portfolio{
+        padding: 66px 0 109px;
+    }
+    /*achievements style*/
+    .achievements{
+        padding: 45px 0 35px;
+    }
+    .far{
+        font-size: 54px;
+    }
+    .achievement-number-1::after,
+    .achievement-number-2::after,
+    .achievement-number-3::after,
+    .achievement-number-4::after
+    {
+        font: 400 54px "Myriad Pro";
+    }
+    #quote-carousel{
+        padding-top: 50px;
+    }
+    /*newsletter style*/
+    .newsletter {
+        padding: 90px 0 45px;
+    }
+
+
+
+
+
+
+}
+
+
+@media(min-width: 768px){
+    /*MD Breakpoint*/
+    /*library*/
+    .p-light{
+        font-size: 18px;
+    }
+    /*hero style*/
+    .hero:after{
+        border-bottom: 70px solid white;
+    }
+    h1{
+        font-size: 52px !important;
+        line-height: 68px !important;
+    }
+    .carousel-bg{
+        padding: 215px 0 266px;
+    }
+    .hero .carousel .carousel-indicators{
+        margin-bottom: 121px;
+    }
+    /*about style*/
+    .about{
+        padding: 70px 0 116px;
+    }
+
+    /*video style*/
+    .video:before,
+    .portfolio:before{
+        border-top: 70px solid white;
+    }
+    .video:after,
+    .portfolio:after{
+        border-top: 70px solid transparent;
+    }
+    .video{
+        padding: 221px 0 173px;
+    }
+    .video-sub{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    /*team style*/
+
+    .team{
+        padding: 104px 0 62px;
+    }
+    /*parallax style*/
+    .parallax:before,
+    .newsletter:before{
+        border-top: 70px solid white;
+    }
+    .parallax:after{
+        border-top: 70px solid transparent;
+    }
+    .about p.text-warning,
+    .parallax p.text-warning,
+    .achievements p.text-warning{
+        font-size: 18px;
+    }
+    .text-b1-grey{
+        font-size: 16px;
+    }
+    /*principles style*/
+    .principles{
+        padding: 74px 0 106px;
+    }
+    .principles p.text-b1-grey{
+        margin-bottom: 33px !important;
+    }
+    /*portfolio style*/
+    .portfolio{
+        padding: 96px 0 129px;
+    }
+    /*achievements style*/
+    .achievements{
+        padding: 65px 0 55px;
+    }
+    .far{
+        font-size: 64px;
+    }
+    .achievement-description{
+        font-size: 16px;
+    }
+    .quote{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .achievement-number-1::after,
+    .achievement-number-2::after,
+    .achievement-number-3::after,
+    .achievement-number-4::after
+    {
+        font: 400 64px "Myriad Pro";
+    }
+    .title{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    #quote-carousel{
+        padding-top: 60px;
+    }
+    /*newsletter style*/
+    .newsletter {
+        padding: 115px 0 55px;
+    }
+    .input-wrapper{
+        max-width: 288px;
+        padding-inline:0px;
+        margin-inline:6px;
+    }
+    .input-wrapper:last-of-type{
+        max-width: 184px;
+    }
+    /*footer style*/
+    footer{
+        padding: 39px 0 45px;
+    }
+    footer p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    footer a{
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+        line-height: 40px !important;
+    }
+
+
+
+
+
+}
+
+
+@media(min-width: 992px){
+    /*LG Breakpoint*/
+    /*header style*/
+    .navbar-brand {
+        margin-right: 282px;
+    }
+    #main-menu .nav-item a:hover,
+    #main-menu .nav-item a.active{
+        background-color: transparent;
+        color: rgba(255,255,255,0.4);
+    }
+    /*hero style*/
+    .hero:after{
+        border-bottom: 80px solid white;
+    }
+    h1{
+        font-size: 62px !important;
+        line-height: 78px !important;
+    }
+    .hero .carousel .carousel-indicators{
+        margin-bottom: 151px;
+    }
+    .carousel-bg{
+        padding: 245px 0 296px;
+    }
+    /*about style*/
+    .about{
+        padding: 90px 0 136px;
+    }
+    .about h2{
+        font-size: 50px;
+    }
+    /*video style*/
+    .video:before,
+    .portfolio:before{
+        border-top: 80px solid white;
+    }
+    .video:after,
+    .portfolio:after{
+        border-top: 80px solid transparent;
+    }
+    .video{
+        padding: 251px 0 193px;
+    }
+    .h2-thin{
+        font-size: 50px;
+    }
+    .video-sub{
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    /*team style*/
+    .team .team-sub{
+        margin-bottom: 78px !important;
+    }
+    .team{
+        padding: 114px 0 72px;
+    }
+    /*parallax style*/
+    .parallax:before,
+    .newsletter:before{
+        border-top: 80px solid white;
+    }
+    .parallax:after{
+        border-top: 80px solid transparent;
+    }
+    .about p.text-warning,
+    .parallax p.text-warning,
+    .achievements p.text-warning{
+        font-size: 20px;
+    }
+    /*principles style*/
+    .principles{
+        padding: 94px 0 126px;
+    }
+    .principles p.text-warning{
+        margin-bottom: 45px !important;
+    }
+    /*portfolio style*/
+    .portfolio{
+        padding: 126px 0 159px;
+    }
+    /*achievements style*/
+    /*    .achievements p.text-warning{
+            margin-bottom: 30px !important;
+        }*/
+    .achievements{
+        padding: 85px 0 75px;
+    }
+    .achievements .row{
+        margin-bottom: 68px !important;
+    }
+    .quote{
+        font-size: 23px;
+        line-height: 31px;
+        max-width: 929px;
+        margin-inline:auto;
+    }
+    #quote-carousel{
+        padding-top: 70px;
+    }
+    /*newsletter style*/
+    .newsletter {
+        padding: 145px 0 75px;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media(min-width: 1200px){
+    /*XL Breakpoint*/
+    .container{
+        max-width: 1188px;
+    }
+    /*library*/
+    .p-light{
+        font-size: 20px;
+    }
+    /*header style*/
+    .navbar{
+        padding: 28px 0 31px;
+    }
+    .navbar-brand {
+        margin-right: 382px;
+    }
+    /*hero style*/
+    .hero:after{
+        border-bottom: 90px solid white;
+    }
+    h1{
+        font-size: 82px !important;
+        line-height: 98px !important;
+        max-width: 900px;
+        margin-inline:auto;
+    }
+    .carousel-bg{
+        padding: 275px 0 326px;
+    }
+    .hero .carousel .carousel-indicators{
+        margin-bottom: 181px;
+    }
+    /*about style*/
+    .about{
+        padding: 120px 0 166px;
+    }
+    .about h2{
+        font-size: 60px;
+    }
+    .h2-thin{
+        font-size: 60px;
+    }
+    /*video style*/
+    .video:before,
+    .portfolio:before{
+        border-top: 90px solid white;
+    }
+    .video:after,
+    .portfolio:after{
+        border-top: 90px solid transparent;
+    }
+    .video{
+        padding: 311px 0 223px;
+    }
+    .video-sub{
+        margin-bottom: 63px !important;
+    }
+    /*team style*/
+    .team .team-sub{
+        margin-bottom: 105px !important;
+    }
+    .team-img-wrapper{
+        margin-bottom: 30px !important;
+    }
+    /*parallax style*/
+    .parallax{
+        padding: 364px 0 317px;
+    }
+    .parallax:before,
+    .newsletter:before{
+        border-top: 90px solid white;
+    }
+    .parallax:after{
+        border-top: 90px solid transparent;
+    }
+    /*principles style*/
+    .principles{
+        padding: 114px 0 146px;
+    }
+    .principles p.text-warning{
+        margin-bottom: 51px !important;
+    }
+    .principles p.text-b1-grey{
+        margin-bottom: 43px !important;
+    }
+    /*portfolio style*/
+    #portfolio p.p-light{
+        margin-bottom: 64px !important;
+    }
+    .portfolio{
+        padding: 166px 0 189px;
+    }
+
+    /*achievements style*/
+    .achievements{
+        padding: 105px 0 95px;
+    }
+    .far{
+        font-size: 84px;
+    }
+    .quote{
+        font-size: 27px;
+        line-height: 35px;
+        max-width: 929px;
+        margin-inline:auto;
+    }
+    .achievement-number-1::after,
+    .achievement-number-2::after,
+    .achievement-number-3::after,
+    .achievement-number-4::after
+    {
+        font: 400 84px "Myriad Pro";
+    }
+    #quote-carousel{
+        padding-top: 80px;
+    }
+    .achievements .row{
+        margin-bottom: 78px !important;
+    }
+    /*newsletter style*/
+    .newsletter {
+        padding: 165px 0 92px;
+    }
+    .newsletter p{
+        margin-bottom: 62px !important;
+    }
+    /*footer style*/
+    footer{
+        padding: 52px 0 60px;
+    }
+    .social{
+        margin-bottom: 32px !important;
+    }
+    footer a{
+        height: 48px;
+        width: 48px;
+        font-size: 24px;
+        line-height: 48px !important;
+    }
+
+
+
+
+}
+
+
+@media(min-width: 1400px){
+    /*XXL Breakpoint*/
+    .container{
+        max-width: 1188px;
+    }
+    /*header style*/
+    .navbar-brand {
+        margin-right: 482px;
+    }
+
+
+}

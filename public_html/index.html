@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Viktor Vlahovic">
+        <meta name="description" content="Skewed responsive web site">
+        <meta name="keywords" content="html5, css3, bootstrap5, responsive, skewed">
+
+        <!--ios compatibility-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Skewed">
+        <link rel="apple-touch-icon" href="./apple-icon-144x144.png">
+
+
+        <!--Android compatibility-->
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Skewed">
+        <link rel="icon" type="image/png" href="./android-icon-192x192.png">
+
+        <!--fonts-->
+        <link href="css/myriad-pro-font/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"> 
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--owl carousel css-->
+        <link href="css/owl/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/owl/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
+
+        <!--custom style-->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+
+
+        <title>Skewed-responsive</title>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#main-menu">
+        <!--header start-->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/skewed-logo.png" alt="skewed logo"/>
+                    </a>
+                    <button class="navbar-toggler border border-white p-2" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fas fa-bars text-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-lg-end" id="main-menu">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 me-lg-0 justify-content-lg-between text-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about">about us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#video">video</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#parallax">parallax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#principles">principles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-lg-0" href="#achievements">achievements</a>
+                            </li>
+                    </div>
+                </div>
+            </nav>
+        </header><!-- header end -->
+        <!--main section start-->
+        <main>
+            <!--hero section start-->
+            <section class="hero mb-4">
+                <div id="corousel-hero" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#corousel-hero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#corousel-hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#corousel-hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#corousel-hero" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-bg text-center" style="background-image:linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('./images/hero-slider/image-1.jpg')">
+                                <h1 class="text-white">Skewed is a <span class="text-warning">slightly wonky</span> landing page template</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <div class="carousel-bg" style="background-image:linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('./images/hero-slider/image-2.jpg')">
+                                <h1 class="text-white">Skewed is a <span class="text-warning">slightly wonky</span> landing page template</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <div class="carousel-bg" style="background-image:linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('./images/hero-slider/image-3.jpg')">
+                                <h1 class="text-white">Skewed is a <span class="text-warning">slightly wonky</span> landing page template</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <div class="carousel-bg" style="background-image:linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('./images/hero-slider/image-2.jpg')">
+                                <h1 class="text-white">Skewed is a <span class="text-warning">slightly wonky</span> landing page template</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- hero section end -->
+            <!--section about start-->
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-md-6">
+                            <article class="h-100 about-content mb-3 mb-md-0">
+                                <h2 class="mb-2 mb-md-3">About Us</h2>
+                                <p class="text-warning mb-3 mb-md-4">Dolor sit amet, consectetur adipiscing elit.</p>
+                                <p class="text-b1-grey mb-4 mb-md-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                    elit. Phasellus dictum enim diam, at condimentum 
+                                    purus facilisis in. Aenean convallis tempor nulla,
+                                    in elementum odio ornare vitae. In faucibus tempus 
+                                    ante vitae pretium. Ut facilisis elit sapien, sed 
+                                    suscipit ex auctor vitae. 
+                                </p>
+                                <a href="#" class="btn btn-outline-warning mb-3 mb-md-4">Find out more</a>
+                            </article>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="h-100 about-img">
+                                <img src="images/hero-slider/image-3.jpg" alt="about-pic"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- about section end -->
+            <!--video section start-->
+            <section id="video" class="video bg-warning text-center">
+                <div class="container">
+                    <h2 class="mb-3 mb-md-4 h2-thin">Video Presentation</h2>
+                    <p class="video-sub mb-3 mb-md-4 mb-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="presentation ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/hwBBJKuNm6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section><!-- video section end -->
+            <!--team style start-->
+            <section class="team text-center" id="team">
+                <div class="container">
+                    <h2 class="mb-2 mb-sm-3 mb-md-4 h2-thin">Meet The Team</h2>
+                    <p class="text-warning mb-4 mb-md-5 team-sub p-light">Dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="owl-carousel">
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-1.jpg" alt="team-1"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Jonathan Smith</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-2.jpg" alt="team-2"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Jane Donovan</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-3.jpg" alt="team-3"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Kelly Johnson</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-4.jpg" alt="team-4"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Sam Davidson</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-1.jpg" alt="team-1"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Jonathan Smith</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-2.jpg" alt="team-2"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Jane Donovan</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-3.jpg" alt="team-3"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Kelly Johnson</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-4.jpg" alt="team-4"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Sam Davidson</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-1.jpg" alt="team-1"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Jonathan Smith</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-2.jpg" alt="team-2"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Jane Donovan</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-3.jpg" alt="team-3"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Kelly Johnson</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                        <div class="members">
+                            <figure class="team-img-wrapper ratio ratio-1x1 rounded-circle mb-3 mb-md-4">
+                                <img src="images/team/team-4.jpg" alt="team-4"/>
+                                <div class="team-social bg-warning">
+                                    <a href="#" class="fab fa-facebook-f"></a>
+                                    <a href="#" class="fab fa-twitter"></a>
+                                </div>
+                            </figure>
+                            <div class="team-info">
+                                <p class="members-name">Sam Davidson</p>
+                                <p class="text-warning">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- section team end -->
+            <!--section parallax start-->
+            <section class="parallax text-center" id="parallax" style="background-image:linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('./images/hero-slider/image-3.jpg')">
+                <div class="container">
+                    <h2 class="h2-thin mb-2 mb-sm-3 mb-md-4">Here’s Some Parallax</h2>
+                    <p class="text-warning mb-3 mb-md-4 mb-lg-5">(If you’re into that kind of thing)</p>
+                    <p class="text-b1-grey mb-3 mb-md-4 mb-lg-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum enim diam,
+                        at condimentum purus facilisis in. Aenean convallis tempor nulla, in elementum odio
+                        ornare vitae. In faucibus tempus ante vitae pretium. Ut facilisis elit sapien, sed 
+                        suscipit ex auctor vitae. 
+                    </p>
+                    <a href="#" class="btn btn-outline-warning mb-3 mb-md-4">Find out more</a>
+
+                </div>
+            </section><!-- section parallax end -->
+            <!--principles style-->
+            <section class="principles" id="principles">
+                <div class="container">
+                    <div class="row align-items-md-center">
+                        <div class="col-12 col-md-6 mb-3 mb-sm-4">
+                            <div class="h-100">
+                                <img src="images/hero-slider/image-1.jpg" alt="principles pic"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="h-100">
+                                <h2 class="h2-thin mb-2 mb-sm-3 mb-md-4">Our Principles</h2>
+                                <p class="text-warning mb-3 mb-md-4 mb-lg-5 p-light">Dolor sit amet, consectetur adipiscing elit.</p>
+                                <p class="text-b1-grey mb-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                    elit. Phasellus dictum enim diam, at condimentum 
+                                    purus facilisis in. Aenean convallis tempor nulla,
+                                    in elementum odio ornare vitae. In faucibus tempus
+                                    ante vitae pretium. Ut facilisis elit sapien, sed 
+                                    suscipit ex auctor vitae. 
+                                </p>
+                                <a href="#" class="btn btn-outline-warning mb-3 mb-md-4">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- principles style end -->
+            <!--portfolio start-->
+            <section class="portfolio bg-warning text-center" id="portfolio">
+                <div class="container">
+                    <h2 class="h2-thin mb-2 mb-md-3 mb-xl-4">Portfolio</h2>
+                    <p class="p-light mb-4 mb-lg-5">Some of our latest work</p>
+                    <div class="owl-carousel">
+                        <div class="products">
+                            <img src="images/portfolio/project-01.jpg" alt="project-01">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-02.jpg" alt="project-02">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-03.jpg" alt="project-03">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-04.jpg" alt="project-04">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-05.jpg" alt="project-05">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-06.jpg" alt="project-06">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-07.jpg" alt="project-07">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-08.jpg" alt="project-08">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-09.jpg" alt="project-09">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-10.jpg" alt="project-10">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-11.jpg" alt="project-11">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                        <div class="products">
+                            <img src="images/portfolio/project-12.jpg" alt="project-12">
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- portfolio end -->
+            <!--achievemnts section start-->
+            <section class="achievements text-center" id="achievements">
+                <div class="container">
+                    <h2 class="h2-thin mb-2 mb-md-3 mb-lg-4">Our Achievements</h2>
+                    <p class="text-warning mb-3 mb-md-4">We keep track of this stuff!</p>
+                    <div class="row mb-4 mb-md-5">
+                        <div class="col-12 col-sm-6 col-lg-3 h-100 mb-4 mb-lg-0">
+                            <i class="far fa-flag mb-3 mb-lg-4"></i>
+                            <p class="text-warning achievement-number-1 mb-1 mb-md-0"></p>
+                            <p class="achievement-description">Projects Completed</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 h-100">
+                            <i class="far fa-smile mb-3 mb-lg-4"></i>
+                            <p class="text-warning achievement-number-2 mb-1 mb-md-0"></p>
+                            <p class="achievement-description">Happy Clients</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 h-100">
+                            <i class="far fa-lightbulb mb-3 mb-lg-4"></i>
+                            <p class="text-warning achievement-number-3 mb-1 mb-md-0"></p>
+                            <p class="achievement-description">Problems Solved</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 h-100">
+                            <i class="far fa-moon mb-3 mb-lg-4"></i>
+                            <p class="text-warning achievement-number-4 mb-1 mb-md-0"></p>
+                            <p class="achievement-description">All-nighters Pulled</p>
+                        </div>
+                    </div>
+                    <!--                    <div class="text-center">
+                                            <p class="quote">
+                                                Lorem ipsum dolor sit amet, consectetur <span class="text-warning">adipiscing elit</span>. Fusce tristique finibus felis, eget molestie eros placerat vitae. Ut ut ipsum augue.
+                                            </p>
+                                            <p class="title">
+                                                - Alfred Johnson, CEO Youtech
+                                            </p>
+                                        </div>-->
+                    <div id="quote-carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#quote-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#quote-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#quote-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p class="quote">
+                                    Lorem ipsum dolor sit amet, consectetur <span class="text-warning">adipiscing elit</span>. Fusce tristique finibus felis, eget molestie eros placerat vitae. Ut ut ipsum augue.
+                                </p>
+                                <p class="title">
+                                    - Alfred Johnson, CEO Youtech
+                                </p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="quote">
+                                    Lorem ipsum dolor sit amet, consectetur <span class="text-warning">adipiscing elit</span>. Fusce tristique finibus felis, eget molestie eros placerat vitae. Ut ut ipsum augue.
+                                </p>
+                                <p class="title">
+                                    - Alfred Johnson, CEO Youtech
+                                </p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="quote">
+                                    Lorem ipsum dolor sit amet, consectetur <span class="text-warning">adipiscing elit</span>. Fusce tristique finibus felis, eget molestie eros placerat vitae. Ut ut ipsum augue.
+                                </p>
+                                <p class="title">
+                                    - Alfred Johnson, CEO Youtech
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- achievements end -->
+            <!-- newsletter start-->
+            <section class="newsletter text-center bg-warning">
+                <div class="container">
+                    <h2 class="h2-thin mb-2 mb-sm-3 mb-md-4">Keep Up To Date</h2>
+                    <p class="p-light mb-3 mb-md-4 mb-lg-5">Subscribe to our mailing list</p>
+                    <form action="" method="post" class="contact-form">
+                        <div class="row justify-content-center">
+                            <div class="col-10 col-sm-6 col-md-4 mb-2 mb-sm-3 mb-md-0 input-wrapper">
+                                <div class="form-group h-100">
+                                    <input type="text" name="name" value="" class="form-control" placeholder="Your name">
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-6 col-md-4 mb-2 mb-sm-3 mb-md-0 input-wrapper">
+                                <div class="form-group h-100">
+                                    <input type="email" name="email" value="" class="form-control" placeholder="Email address">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 mb-2 mb-sm-3 mb-md-0 input-wrapper">
+                                <div class="form-group h-100">
+                                    <button class="btn btn-dark">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section><!-- newsletter end -->
+        </main><!-- main section end -->
+        <!--footer start-->
+        <footer class="text-center">
+            <div class="container">
+                <div class="social mb-2 mb-md-3 mb-lg-4">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-google-plus-g"></a>
+                    <a href="#" class="fas fa-basketball-ball"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+                <p class="mb-0">Copyright 2015 <span class="text-warning">Skewed</span>. All Rights Reserved </p>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+        <!--jquery-->
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+        <script src="js/owl.carousel.js" type="text/javascript"></script>
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script>
+                $(document).ready(function () {
+                    $(".owl-carousel").owlCarousel();
+                });
+        </script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true,
+                        dots: false
+                    },
+                    576: {
+                        items: 2,
+                        dots: true
+                    },
+                    768: {
+                        items: 3,
+                        dots: true
+                    },
+
+                    1188: {
+                        items: 4,
+                        loop: true,
+                        dots: true
+                    }
+                }
+            });
+        </script>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/85bd05dd45.js" crossorigin="anonymous"></script>
+    </body>
+</html>
