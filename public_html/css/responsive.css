@@ -212,6 +212,9 @@
 @media(min-width: 992px){
     /*LG Breakpoint*/
     /*header style*/
+    .bg-light{
+    background-color: rgba(0,0,0,0.35)!important;
+}
     .navbar-brand {
         margin-right: 282px;
     }

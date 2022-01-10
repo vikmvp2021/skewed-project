@@ -50,7 +50,7 @@ a{
     padding:5px 37px;
 }
 .bg-light{
-    background-color: rgba(0,0,0,0.35)!important;
+    background-color: rgba(0,0,0,0.8)!important;
 }
 .text-b1-grey{
     color: #B1B1B1;
@@ -74,6 +74,7 @@ header{
 .navbar{
     padding: 23px 0 26px;
 }
+
 #main-menu .nav-item a{
     text-transform: uppercase;
     color: #FFFFFF;
@@ -85,8 +86,8 @@ header{
 
 #main-menu .nav-item a:hover,
 #main-menu .nav-item a.active{
-    background-color: rgba(255, 255, 255,0.3);
-    color: rgba(0,0,0,0.4);
+    background-color: rgba(255, 255, 255,0.8);
+    color: rgba(0,0,0,0.9);
 }
 
 /*hero style start*/
@@ -96,6 +97,21 @@ header{
     background-size: cover;
     background-position: center center;
 
+}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next{
+    font-size: 40px;
+    font-weight: bold;
+    margin-inline: 6px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: black;   
+    transition: 0.3s linear;
+}
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover{
+    transform: scale(1.2);
 }
 .hero{
     position: relative;
@@ -256,6 +272,9 @@ h1{
     font-family: Roboto;
     font-size: 16px;
     letter-spacing: -0.25px;
+}
+.owl-carousel{
+    z-index: 0;
 }
 .owl-carousel button.owl-dot {
     display: inline-block;
